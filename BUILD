@@ -19,6 +19,6 @@ go_binary(
 
 go_library(
     name = "main",
-    srcs = ["dashboard.go"],
+    srcs = ["app.go"],
     importpath = "dashboard",
 )
